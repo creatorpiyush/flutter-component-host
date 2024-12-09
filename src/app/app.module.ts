@@ -3,14 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FlutterAppComponent } from './flutter-app/flutter-app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlutterAppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
